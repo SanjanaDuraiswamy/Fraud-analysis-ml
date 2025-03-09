@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+cred
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging files
+*.log
+debug.log
+
+# Data files
+*.csv
+*.xlsx
+*.json
+*.db
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+model/
+
+# Environment variables / Secrets
+.env
+*.key
+*.pem
+
+# VS Code settings
+.vscode/
+
+# MacOS / Linux / Windows system files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Flask cache
+instance/
+__pycache__/
+*.sqlite3
